@@ -1,3 +1,12 @@
+# import libraries 
+
+from bs4 import BeautifulSoup
+import requests
+import time
+import datetime
+
+import smtplib
+
 def price_check():
 	URL = ''
 	headers = {
